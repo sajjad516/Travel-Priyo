@@ -1,0 +1,78 @@
+/* mulish font from google */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* ------>>Shared Style<---------- */
+:root {
+    --primary-color: #FF5400;
+    --primary-color2: #131318;
+    --secondary-color: rgba(19, 19, 24, 0.70);
+    --card-description-color: #5A5A5D;
+}
+
+* {
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.title {}
+
+/* Header style  */
+/* banner part style  */
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner.png');
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 1170px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.banner-content {
+    padding: 106px 185px;
+    text-align: center;
+    color: #FFF;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    margin: 0 20px 50px;
+}
+
+.find-travel {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+}
+
+.travel-zone,
+.where-go {
+    width: 170px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding: 0 16px;
+    margin-right: 20px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #caced1;
+}
+
+.search-travel {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+}
