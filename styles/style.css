@@ -270,4 +270,14 @@
         width: 100%;
         height: 176px;
     }
+    /* chose card responsive style  */
+    .chose-card {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 20px;
+    }
+    .why-chose .chose-description {
+        margin: 30px;
+    }
 }
