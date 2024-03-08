@@ -60,7 +60,21 @@
     margin: 50px auto;
     text-align: center;
 }
-
+.logo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.logo a img{
+    margin-right: 10px;
+}
+.logo-text{
+    color: #FF5400;
+}
 /* Header style  */
 /* banner part style  */
 .banner {
@@ -366,7 +380,20 @@
     font-size: 2rem;
     font-weight: 800;
 }
-
+/* footer part style  */
+.footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    padding: 100px 250px;
+    text-align: center;
+}
+.social-icon{
+    margin-bottom: 20px;
+}
+.social-icon a{
+    color: #131318;
+    margin: 0 20px;
+    font-size: 20px;
+}
 /* responsive style  */
 /* MOBILE Device  */
 @media screen and (max-width: 576px) {
@@ -499,5 +526,12 @@
     
     .save-up h1 {
         font-size: 1.2rem;
+    }
+
+    .footer{
+        padding: 20px 50px;
+    }
+    .logo a{
+        font-size: 1rem;
     }
 }
