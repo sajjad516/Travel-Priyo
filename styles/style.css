@@ -53,7 +53,8 @@
 .choose-destination,
 .why-chose,
 .deals-discount,
-.tour-video-intro {
+.tour-video-intro,
+.newsletter {
     max-width: 1170px;
     margin: 50px auto;
     text-align: center;
@@ -291,7 +292,48 @@
     border-radius: 16px;
     background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
 }
-.video{
+
+.video {
+    width: 100%;
+}
+
+/* newsletter style */
+.newsletter-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    /* align-items: center; */
+    margin: auto 0;
+}
+
+.newsletter-content {
+    text-align: left;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.horizontal-line {
+    margin-bottom: 25px;
+}
+
+.signup {
+    display: grid;
+    gap: 20px;
+}
+.signup input{
+    border: none;
+    outline: none;
+}
+.signup-name, #signup-emial {
+    border-radius: 8px;
+    background-color: rgba(19, 19, 24, 0.05);
+    padding: 16px 20px;
+}
+.signup-name::placeholder,#signup-emial::placeholder{
+    color: rgba(19, 19, 24, 0.30);
+}
+.newsletter-image img {
     width: 100%;
 }
 
